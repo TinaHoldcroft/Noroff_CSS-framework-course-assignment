@@ -1,0 +1,11 @@
+.card {
+    border: lightgray solid 0.5px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    .card-body {
+        padding: 10px 15px 10px 15px;
+    }
+    .card-text {
+        padding: 10px 0px 10px 0px;
+    }
+}

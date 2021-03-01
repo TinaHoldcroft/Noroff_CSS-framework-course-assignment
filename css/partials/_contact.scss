@@ -1,0 +1,30 @@
+.contact {
+    background-color: #EFEFEF;
+    padding: 50px;
+    text-align: right;
+        .form-group textarea {
+            border-radius: 0px;
+            border: transparent;
+            min-height: 200px;
+        }
+        .form-group input{
+            border-radius: 0px;
+            border: transparent;
+        }
+}
+
+
+.col-sm-6 {
+    .panel-group {
+        .panel {
+            margin:0;
+            border-radius: 5px;
+            border: transparent;
+            border-bottom: solid lightgray 1px;
+        }
+    }
+} 
+#accordion {
+    border-radius: 5px;
+    border: solid 1px lightgray;
+}

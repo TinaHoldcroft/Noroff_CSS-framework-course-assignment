@@ -1,0 +1,228 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@media only screen and (max-width: 600px) {
+  .YAY {
+    display: none;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .navbar-active {
+    border-bottom: black 1.5px solid;
+  }
+}
+.navbar {
+  border: none;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.15);
+  text-align: center;
+  background-color: #EFEFEF;
+  padding: 10px;
+}
+.navbar button {
+  background-color: #E92569;
+  color: white;
+}
+.navbar .navbar-toggle {
+  background-color: #EFEFEF;
+  border: none;
+}
+.navbar .input-group input {
+  border: none;
+  border-radius: 1px;
+}
+.navbar .input-group button {
+  border: none;
+  border-radius: 0px;
+  padding: 7px;
+}
+
+.banner {
+  padding: 0;
+  margin-top: -18px;
+}
+
+.navbar-active {
+  background-color: white;
+}
+
+.navbar-nav {
+  padding-left: 3%;
+}
+
+h1, h2, h3, .card-title {
+  font-family: "Noto Serif", serif;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2, h3, .card-title {
+  font-size: 20px;
+}
+
+body, .card, .contact {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+.navbar-header .navbar-brand {
+  font-size: 22px;
+  color: #E92569;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Noto Serif", serif;
+}
+
+.nav li {
+  font-size: 13px;
+}
+
+.form-group input, .form-group textarea {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+footer {
+  font-size: 11px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card {
+  border: lightgray solid 0.5px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.card .card-body {
+  padding: 10px 15px 10px 15px;
+}
+.card .card-text {
+  padding: 10px 0px 10px 0px;
+}
+
+.contact {
+  background-color: #EFEFEF;
+  padding: 50px;
+  text-align: right;
+}
+.contact .form-group textarea {
+  border-radius: 0px;
+  border: transparent;
+  min-height: 200px;
+}
+.contact .form-group input {
+  border-radius: 0px;
+  border: transparent;
+}
+
+.col-sm-6 .panel-group .panel {
+  margin: 0;
+  border-radius: 5px;
+  border: transparent;
+  border-bottom: solid lightgray 1px;
+}
+
+#accordion {
+  border-radius: 5px;
+  border: solid 1px lightgray;
+}
+
+footer {
+  margin-top: 3%;
+  background-color: #EFEFEF;
+}
+footer p {
+  padding-bottom: 0px;
+}
+@media screen and (max-width: 1500px) {
+  footer {
+    padding: 1%;
+  }
+  footer p {
+    text-align: right;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 2%;
+  }
+  footer p {
+    text-align: center;
+    margin-top: 3%;
+  }
+  footer .fa-facebook-square {
+    margin-left: 30%;
+    margin-top: 3%;
+  }
+}
+footer .fab {
+  color: darkgray;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tab-content {
+    border: solid white 1px;
+  }
+  .tab-content .tab-pane {
+    display: block;
+  }
+  .tab-content .tab-pane .mobile {
+    color: #E92569;
+  }
+
+  .nav-tabs {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .tab-content {
+    border: solid lightgray 1px;
+  }
+  .tab-content .tab-pane .mobile {
+    display: none;
+  }
+}
+.navbar {
+  margin-bottom: -5px;
+}
+
+.nav-tabs {
+  margin-left: 15px;
+  border-bottom: solid white 3px;
+}
+.nav-tabs a {
+  color: black;
+}
+
+.tab-content {
+  padding: 3%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  padding-bottom: 25px;
+}
+
+.btn {
+  background-color: #E92569;
+  color: white;
+  padding: 7px 30px 7px 30px;
+  margin-bottom: 3%;
+}
+
+.btn-default:hover {
+  color: #E92569;
+  background-color: white;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=styles.css.map */

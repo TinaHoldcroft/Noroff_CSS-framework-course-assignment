@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+    .YAY {
+        display: none;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .navbar-active {
+        border-bottom: black 1.5px solid;
+    }
+}
+.navbar {
+    border: none;
+    box-shadow: 0 0.1rem 0.5rem rgba(black, 0.15);
+    text-align: center;
+    background-color: #EFEFEF;
+    padding: 10px;
+    button {
+        background-color: #E92569;
+        color: white;
+    }
+    .navbar-toggle {
+        background-color: #EFEFEF;
+        border: none;
+    }
+    .input-group input {
+        border: none;
+        border-radius: 1px;
+    }
+    .input-group button {
+        border: none;
+        border-radius: 0px;
+        padding: 7px;
+    }
+}
+
+.banner {
+    padding: 0;
+    margin-top: -18px;
+}
+.navbar-active {
+    background-color: white;
+}
+.navbar-nav {
+    padding-left: 3%;
+}

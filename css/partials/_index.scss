@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+    .tab-content {
+        border: solid white 1px;
+        .tab-pane {
+            display: block;
+            .mobile { color: #E92569; }
+        }
+    }
+    .nav-tabs { display: none; }
+}
+
+@media only screen and (min-width: 600px) {
+    .tab-content {
+        border: solid lightgray 1px;
+        .tab-pane {.mobile { display: none;}}
+    }
+}
+.navbar {
+    margin-bottom: -5px;
+}
+.nav-tabs {
+    margin-left: 15px;
+    border-bottom: solid white 3px;
+    margin-bottom: -5px;
+    a {
+        color: black;
+    }
+}
+.tab-content {
+    padding: 3%;
+}
